@@ -12,8 +12,8 @@ The code trains the PSI_PFL method and all the other baselines provided to tackl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Sapienza-University-Rome/psi_pfl.git
+   cd psi_pfl
 
 2. **Create and activate the conda environment**:
    ```bash
