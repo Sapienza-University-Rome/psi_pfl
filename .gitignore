@@ -1,0 +1,15 @@
+# Ignore specific files in data folder
+data/acs_income/**
+data/celeba/img_align_celeba/**
+data/sent140/glove_6B/glove.6B.300d.txt
+data/sent140/training.1600000.processed.noemoticon.csv
+
+.ipynb_checkpoints/
+environment (copia).yml
+
+# Common patterns to ignore
+*.log
+*.tmp
+*.cache
+__pycache__/
+*.py[cod]
