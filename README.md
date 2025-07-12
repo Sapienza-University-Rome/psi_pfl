@@ -17,29 +17,32 @@ The code trains the PSI_PFL method and all the other baselines provided to tackl
 
 2. **Create and activate the conda environment**:
    ```bash
-    conda env create -f environment.yml
-    conda activate psi-pfl
+    conda name_for_env create -f environment.yml
+    conda activate name_for_env
 
 3. **Download missing datasets (sent140 and celeba):**:
 
-   * For sent140: 
+   * For sent140:
    ```bash
-    mkdir -p data/sent140
     cd data/sent140
-    wget https://drive.google.com/file/d/1KQQuROfRQ9g7H2-3Yj8jCKXEdNWewJjm/view?usp=sharing -O sent140.zip
-    unzip sent140.zip
-    rm sent140.zip
-    cd ../..
-
+    wget https://drive.google.com/file/d/1VkpPeWV1sAv-JxWWJn0D7KLMWbS8yhDj/view?usp=drive_link -O training.1600000.processed.noemoticon.zip
+    unzip training.1600000.processed.noemoticon.zip
+    rm training.1600000.processed.noemoticon.zip
+    cd glove_6B
+    wget https://drive.google.com/file/d/1BWJMhQnJLg2bGlG5ONJReYmrm0kgjgrj/view?usp=drive_link -O glove.6B.300d.zip
+    unzip glove.6B.300d.zip
+    rm glove.6B.300d.zip
+    cd ../../..
+    ```
    * For celeba:
    ```bash
-    mkdir -p data/celeba
     cd data/celeba
-    wget https://drive.google.com/file/d/1m8-EBPgi5MRubrm6iQjafK2QMHDBMSfJ/view?usp=sharing -O celeba.zip
-    unzip celeba.zip
-    rm celeba.zip
+    wget https://drive.google.com/file/d/1xVLmWtukUkb9L2ry7hzQnPGTePxHwH-x/view?usp=drive_link -O img_align_celeba.zip
+    unzip img_align_celeba.zip
+    rm img_align_celeba.zip
     cd ../..
-            
+    ```
+
 ## Usage
 The following code executes the training using the default parameters:
 ```
