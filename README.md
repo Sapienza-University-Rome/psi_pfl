@@ -6,7 +6,7 @@
 This is the code of the paper [PSI-PFL: Population Stability Index for Client Selection in non-IID Personalized Federated Learning]().
 
 
-The code trains the PSI_PFL method and all the other baselines provided to tackle non-IID data in Federated Learning. Specifically, we implement 12 Federated Learning (FL) algorithms (PSI_PFL, FedAvg, FedProx, FedAvgM, FedAdagrad, FedYogi, FedAdam, Power-Of-Choice (PoC), HACCS, FedCLS, Clustered-FL (CFL), and FedSoft) and 4 datasets (acs_income, dutch, celeba, and sent140).
+The code trains the PSI-PFL method and all the other baselines provided to tackle non-IID data in Federated Learning (FL). Specifically, we implement 12 FL algorithms (PSI_PFL, FedAvg, FedProx, FedAvgM, FedAdagrad, FedYogi, FedAdam, Power-Of-Choice (PoC), HACCS, FedCLS, Clustered-FL (CFL), and FedSoft) and 4 datasets (acs_income, dutch, celeba, and sent140).
 
 ## Environment setup
 
