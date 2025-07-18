@@ -20,7 +20,7 @@ The code trains the PSI-PFL method and all the other baselines provided to tackl
     conda name_for_env create -f environment.yml
     conda activate name_for_env
 
-3. **Download missing datasets (sent140 and celeba) if needed:**
+3. **Download missing datasets (only if you are training with CelebA or Sent140):**
 
    * For sent140:
    ```bash
