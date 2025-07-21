@@ -35,13 +35,13 @@ python main.py
 | `--root-path` | The root path for the application | Any valid path string | `get_default_path()` |
 | `--dataset` | Dataset to use for training | `'acs_income', 'dutch', 'sent140', 'celeba'` | `'acs_income'` |
 | `--partitioner` | Partition protocol to split (federate) data | `'dirichlet'` | `'dirichlet'` |
-| `--non-iid-param` | Non-IID parameter (alpha for Dirichlet) | Float values from 0 to inf | `1` |
+| `--non-iid-param` | Non-IID parameter (alpha for Dirichlet) | Float values from 0 to inf | `0.7` |
 | `--num-clients` | Number of clients | Positive integers | `10` |
 | `--rand-state` | Random state for reproducibility | Any integer | `42` |
 | `--agg-method` | Aggregation algorithm to train | `'psi_pfl', 'fedavg', 'fedprox', 'fedavgm', 'fedadagrad', 'fedyogi', 'fedadam', 'poc', 'haccs' , 'fedcls', 'cfl', 'fedsoft'` | `'psi_pfl'` |
-| `--seeds-list` | List of random seeds to use for training | Comma-separated integers | `'42,0'` |
+| `--seeds-list` | List of random seeds to use for training | Comma-separated integers | `'0,1,2,3,42'` |
 | `--local-epochs` | Number of local epochs (per client) | Positive integers | `2` |
-| `--comm-rounds` | Number of communication rounds in FL training | Positive integers | `2` |
+| `--comm-rounds` | Number of communication rounds in FL training | Positive integers | `10` |
 | `--psi-ths-list` | List of percentiles for psi thresholds (tau) | Comma-separated numbers | `'10,20'` |
 | `--lr` | Learning rate | Positive floats | `0.001` |
 | `--mu-ths-list` | List of mu thresholds for fedprox | Comma-separated numbers | `'0.01'` |
