@@ -10,6 +10,8 @@ The code trains the PSI-PFL method and all the other baselines provided to tackl
 
 ## Environment setup
 
+The following instructions aim to help with the environment setup to execute the training. It is done using Anaconda, but it can be extended to any other Python distributor.
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Sapienza-University-Rome/psi_pfl.git
@@ -20,28 +22,9 @@ The code trains the PSI-PFL method and all the other baselines provided to tackl
     conda name_for_env create -f environment.yml
     conda activate name_for_env
 
-3. **Download missing datasets (only if you are training with CelebA or Sent140):**
-
-   * For sent140:
+2. **Install required libraries**:
    ```bash
-    cd data/sent140
-    wget https://drive.google.com/file/d/1VkpPeWV1sAv-JxWWJn0D7KLMWbS8yhDj/view?usp=drive_link -O training.1600000.processed.noemoticon.zip
-    unzip training.1600000.processed.noemoticon.zip
-    rm training.1600000.processed.noemoticon.zip
-    cd glove_6B
-    wget https://drive.google.com/file/d/1BWJMhQnJLg2bGlG5ONJReYmrm0kgjgrj/view?usp=drive_link -O glove.6B.300d.zip
-    unzip glove.6B.300d.zip
-    rm glove.6B.300d.zip
-    cd ../../..
-    ```
-   * For celeba:
-   ```bash
-    cd data/celeba
-    wget https://drive.google.com/file/d/1xVLmWtukUkb9L2ry7hzQnPGTePxHwH-x/view?usp=drive_link -O img_align_celeba.zip
-    unzip img_align_celeba.zip
-    rm img_align_celeba.zip
-    cd ../..
-    ```
+   conda
 
 ## Usage
 The following code executes the training using the default parameters:
@@ -76,6 +59,28 @@ python main.py
 | `--rho-haccs` | Rho threshold (for haccs) | Float between 0 and 1 | `0.95` |
 | `--thl-fedcls` | Similarity threshold (for fedcls) | Float values | `0.1` |
 
+3. **Download missing datasets (only if you are training with CelebA or Sent140):**
+
+   * For sent140:
+   ```bash
+    cd data/sent140
+    wget https://drive.google.com/file/d/1VkpPeWV1sAv-JxWWJn0D7KLMWbS8yhDj/view?usp=drive_link -O training.1600000.processed.noemoticon.zip
+    unzip training.1600000.processed.noemoticon.zip
+    rm training.1600000.processed.noemoticon.zip
+    cd glove_6B
+    wget https://drive.google.com/file/d/1BWJMhQnJLg2bGlG5ONJReYmrm0kgjgrj/view?usp=drive_link -O glove.6B.300d.zip
+    unzip glove.6B.300d.zip
+    rm glove.6B.300d.zip
+    cd ../../..
+    ```
+   * For celeba:
+   ```bash
+    cd data/celeba
+    wget https://drive.google.com/file/d/1xVLmWtukUkb9L2ry7hzQnPGTePxHwH-x/view?usp=drive_link -O img_align_celeba.zip
+    unzip img_align_celeba.zip
+    rm img_align_celeba.zip
+    cd ../..
+    ```
 
 ## Citation
 If you find this repository useful, please cite our paper:
