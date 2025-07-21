@@ -20,7 +20,7 @@ The following instructions aim to help with the environment setup to execute the
 2. **Create and activate the conda environment**:
    ```bash
     conda env create -f environment.yml --verbose
-    conda activate conda activate psi_pfl_py310
+    conda activate psi_pfl_py310
 
 ## Usage
 The following code executes the training using the default parameters:
