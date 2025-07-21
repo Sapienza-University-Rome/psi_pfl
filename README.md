@@ -17,7 +17,7 @@ The following instructions aim to help with the environment setup to execute the
    git clone https://github.com/Sapienza-University-Rome/psi_pfl.git
    cd psi_pfl
 
-2. **Create and activate the conda environment**:
+2. **Create and activate the conda environment (this may take several minutes)**:
    ```bash
     conda env create -f environment.yml --verbose
     conda activate psi_pfl_py310
