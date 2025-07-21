@@ -19,12 +19,8 @@ The following instructions aim to help with the environment setup to execute the
 
 2. **Create and activate the conda environment**:
    ```bash
-    conda name_for_env create -f environment.yml
-    conda activate name_for_env
-
-2. **Install required libraries**:
-   ```bash
-   conda
+    conda env create -f environment.yml --verbose
+    conda activate conda activate psi_pfl_py310
 
 ## Usage
 The following code executes the training using the default parameters:
