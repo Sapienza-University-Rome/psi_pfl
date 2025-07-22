@@ -55,7 +55,11 @@ python main.py
 | `--rho-haccs` | Rho threshold (for haccs) | Float between 0 and 1 | `0.95` |
 | `--thl-fedcls` | Similarity threshold (for fedcls) | Float values | `0.1` |
 
-3. **Download missing datasets (only if you are training with CelebA or Sent140):**
+
+**Download missing datasets (only if you are training with CelebA or Sent140):**
+
+Due to GitHub's file size limitations, the CelebA and Sent140 datasets are not included in the repository. To use these datasets, you must manually download them and place the files into the appropriate folder created during the Environment Setup step.
+Below are the terminal commands for downloading the data on a Linux system.
 
    * For sent140:
    ```bash
