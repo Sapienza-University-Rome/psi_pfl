@@ -59,27 +59,7 @@ python main.py
 **Download missing datasets (only if you are training with CelebA or Sent140):**
 
 Due to GitHub's file size limitations, the CelebA and Sent140 datasets are not included in the repository. To use these datasets, you must manually download them and place the files into the appropriate folder created during the Environment Setup step.
-Below are the terminal commands for downloading the data on a Linux system.
-
-   * For sent140:
-   ```bash
-    cd data/sent140
-    wget https://drive.google.com/file/d/1VkpPeWV1sAv-JxWWJn0D7KLMWbS8yhDj/view?usp=drive_link -O training.1600000.processed.noemoticon.zip
-    unzip training.1600000.processed.noemoticon.zip
-    rm training.1600000.processed.noemoticon.zip
-    cd glove_6B
-    wget https://drive.google.com/file/d/1BWJMhQnJLg2bGlG5ONJReYmrm0kgjgrj/view?usp=drive_link -O glove.6B.300d.zip
-    unzip glove.6B.300d.zip
-    rm glove.6B.300d.zip
-    cd ../../..
-    ```
-   * For celeba:
-   ```bash
-    cd data/celeba
-    wget https://drive.google.com/file/d/1xVLmWtukUkb9L2ry7hzQnPGTePxHwH-x/view?usp=drive_link -O img_align_celeba.zip
-    unzip img_align_celeba.zip
-    rm img_align_celeba.zip
-    cd ../..
+Click on [](https://drive.google.com/drive/folders/14_5T_fiQgVDoFt8vXoombLjkF34o5stC?usp=sharing) to download the data.
     ```
 
 ## Citation
