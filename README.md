@@ -10,9 +10,9 @@ The code trains the PSI-PFL method and all the other baselines provided to tackl
 
 ## Environment setup
 
-The following instructions aim to help with the environment setup to execute the training. It is done using Anaconda, but it can be extended to any other Python distributor.
+The following instructions aim to help with the environment setup to execute the training. It is done using Anaconda in Linux, but it can be extended to any other Python distributor and operating system.
 
-1. **Clone the repository**:
+1. **Clone the repository (or download the .zip folder)**:
    ```bash
    git clone https://github.com/Sapienza-University-Rome/psi_pfl.git
    cd psi_pfl
