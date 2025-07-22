@@ -1,6 +1,6 @@
 # PSI-PFL: Population Stability Index for Client Selection in non-IID Personalized Federated Learning
 
-[![paper](https://img.shields.io/badge/PAPER-arXiv-yellowgreen?style=for-the-badge)](https://arxiv.org/pdf/2102.02079.pdf)
+[![paper](https://img.shields.io/badge/PAPER-arXiv-yellowgreen?style=for-the-badge)]()
 &nbsp;&nbsp;&nbsp;
 
 This is the code of the paper [PSI-PFL: Population Stability Index for Client Selection in non-IID Personalized Federated Learning]().
