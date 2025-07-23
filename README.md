@@ -66,18 +66,18 @@ Make sure that the structure of the two folders is as follows:
 ```
 psi_pfl/
 ├── data/
-│   ├── acs_income/
-│   ├── celeba/
-│       ├── img_align_celeba/
-│       │   ├── 000001.jpg
-│       │   ├── ...
-│       │   └── 202599.jpg
-│       └── list_attr_celeba.txt
-│   ├── dutch/
-│   └── sent140/
-│       ├── glove_6B/
-│       │   └── glove.6B.300d.txt
-│       └── training.1600000.processed.noemoticon.csv
+   ├── acs_income/
+   ├── celeba/
+   │   ├── img_align_celeba/
+   │   │   ├── 000001.jpg
+   │   │   ├── ...
+   │   │   └── 202599.jpg
+   │   └── list_attr_celeba.txt
+   ├── dutch/
+   └── sent140/
+       ├── glove_6B/
+       │   └── glove.6B.300d.txt
+       └── training.1600000.processed.noemoticon.csv
 ```
 
 ## Citation
