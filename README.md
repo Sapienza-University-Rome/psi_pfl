@@ -65,13 +65,13 @@ Click on [this link](https://drive.google.com/drive/folders/14_5T_fiQgVDoFt8vXoo
 If you find this repository useful, please cite our paper:
 
 ```
-@misc{yourarxivid,
-  author  = {Daniel M. Jimenez-Gutierrez and David Solans and Mohammed Elbamby and Nicolas Kourtellis}
-},
-  title   = {PSI-PFL: Population Stability Index for Client Selection in non-IID Personalized Federated Learning},
-  journal = {arXiv preprint},
-  volume  = {arXiv:XXXX.XXXXX},
-  year    = {2023},
-  url     = {https://arxiv.org/abs/XXXX.XXXXX}
+@misc{jimenezgutierrez2025psipflpopulationstabilityindex,
+      title={PSI-PFL: Population Stability Index for Client Selection in non-IID Personalized Federated Learning}, 
+      author={Daniel-M. Jimenez-Gutierrez and David Solans and Mohammed Elbamby and Nicolas Kourtellis},
+      year={2025},
+      eprint={2506.00440},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.00440}, 
 }
 ```
