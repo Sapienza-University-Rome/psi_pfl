@@ -42,7 +42,7 @@ python main.py
 | `--seeds-list` | List of random seeds to use for training | Comma-separated integers | `'0,1,2,3,42'` |
 | `--local-epochs` | Number of local epochs (per client) | Positive integers | `2` |
 | `--comm-rounds` | Number of communication rounds in FL training | Positive integers | `10` |
-| `--psi-ths-list` | List of percentiles for psi thresholds (tau) | Comma-separated numbers | `'10,20'` |
+| `--psi-ths-list` | List of percentiles for psi thresholds (tau) | Comma-separated numbers | `'10,25,50'` |
 | `--lr` | Learning rate | Positive floats | `0.001` |
 | `--mu-ths-list` | List of mu thresholds for fedprox | Comma-separated numbers | `'0.01'` |
 | `--momentum-ths-list` | List of momentum thresholds for fedavgm | Comma-separated numbers | `'0.7'` |
