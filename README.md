@@ -59,9 +59,9 @@ python main.py
 **Download missing datasets (only if you are training with CelebA or Sent140):**
 
 Due to GitHub's file size limitations, the CelebA and Sent140 datasets are not included in the repository. To use these datasets, you must manually download them and place the files into the appropriate folder created during the Environment Setup step.
-Click on [this link](https://drive.google.com/drive/folders/14_5T_fiQgVDoFt8vXoombLjkF34o5stC?usp=sharing) to download the data.
+Click on [this link](https://drive.google.com/drive/u/3/folders/1nxHp7lhdRZxasqLzg58QtMYCFnXKeIsD) to download the data.
 
-Make sure that the structure of the data folder (specifically celeba and sent140) is as follows:
+Make sure that the structure of the data folder (specifically, celeba and sent140) is as follows:
 
 ```
 psi_pfl/
